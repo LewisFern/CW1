@@ -39,6 +39,6 @@ public class CurrencyConverter {
                 System.out.println("Thank you for using the converter.");
 	        }
 		{
-		System.out.println("test")
+		System.out.println("test");
 		}
 }
