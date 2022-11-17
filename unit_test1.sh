@@ -29,46 +29,74 @@ actual_value8 = "1 euros = 1.31 dollars"
 expected_value9 = "1 pounds = 1.36 dollars"
 actual_value9 = "1 pounds = 1.36 dollars"
 
-if [[expected_value1 == actual_value1]] then
+if [[expected_value1 == actual_value1]]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL"
+exit 1
+fi
 
-if [[expected_value2 == actual_value2]] then
+if [[expected_value2 == actual_value2]]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL"
+exit 1
+fi
 
-if [[expected_value3 == actual_value3]] then
+if [[expected_value2 == actual_value2]]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL"
+exit 1
+fi
 
-if [[expected_value4 == actual_value4]] then
+if [[expected_value3 == actual_value3]]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL"
+exit 1
+fi
 
-if [[expected_value5 == actual_value6]] then
+if [[expected_value4 == actual_value4]]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL"
+exit 1
+fi
 
-if [[expected_value7 == actual_value7]] then
+if [[expected_value5 == actual_value5]]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL"
+exit 1
+fi
 
-if [[expected_value8 == actual_value8]] then
+if [[expected_value5 == actual_value6]]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL"
+exit 1
+fi
 
-
-if [[expected_value9 == actual_value9]] then
+if [[expected_value7 == actual_value7]]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL"
+exit 1
+fi
 
+if [[expected_value8 == actual_value8]]; then
+echo "TEST PASS"
+else
+echo "TEST FAIL"
+exit 1
+fi
+
+if [[expected_value9 == actual_value9]]; then
+echo "TEST PASS"
+else
+echo "TEST FAIL"
+exit 1
+fi
 
 
