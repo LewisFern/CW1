@@ -3,7 +3,9 @@
 java CurrencyConverter
 
 expected_value1 = "1 dollars = 0.74 pounds"
-actual_value1 = java CurrencyConverter 1 dollars
+actual_value1 = $(java CurrencyConverter 1 dollars)
+
+
 
 
 
