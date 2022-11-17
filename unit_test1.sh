@@ -2,9 +2,9 @@
 
 java CurrencyConverter
 
-expected_value1 = ("1.0 Dollars = 0.74 Pounds1.0 Dollars = 0.88 EurosThank you for using the converter.")
+expected_value1=$'1.0 Dollars = 0.74 Pounds\n1.0 Dollars = 0.88 Euros\nThank you for using the converter.'
 
-actual_value1 = (java CurrencyConverter 1 dollars)
+actual_value1 = java CurrencyConverter 1 dollars
 
 
 if [ "$expected_value1" = "$actual_value1" ]; then
