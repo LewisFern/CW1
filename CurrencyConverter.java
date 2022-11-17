@@ -17,9 +17,9 @@ public class CurrencyConverter {
                         case "dollars" :
                                 // For Dollar Conversion
                                 pound = amount * 0.74;
-                                System.out.println(amount + " Dollars = " + f.format(pound) + " Pounds");
+                                System.out.print(amount + " Dollars = " + f.format(pound) + " Pounds");
                                 euro = amount * 0.88;
-                                System.out.println(amount + " Dollars = " + f.format(euro) + " Euros");
+                                System.out.print(amount + " Dollars = " + f.format(euro) + " Euros");
                                 break;
                         case "pounds":
                                 // For Pound Conversion
