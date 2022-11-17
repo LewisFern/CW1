@@ -3,7 +3,7 @@
 java CurrencyConverter
 
 expected_value1 = "1 dollars = 0.74 pounds"
-actual_value1 = "1 dollar = 0.74 pounds"
+actual_value1 = java CurrencyConverter 1 dollars
 
 expected_value2 = "1 dollars = 0.88 euros"
 actual_value2 = "1 dollars = 0.88 euros"
@@ -29,7 +29,8 @@ actual_value8 = "1 euros = 1.31 dollars"
 expected_value9 = "1 pounds = 1.36 dollars"
 actual_value9 = "1 pounds = 1.36 dollars"
 
-if [[expected_value1 == actual_value1]]; then
+
+if [ "$expeced_value1" = "$actual_value1" ]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL"
