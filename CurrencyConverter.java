@@ -7,7 +7,7 @@ public class CurrencyConverter {
 
 
 
-                try{
+                ry{
                 double amount, dollar, pound, code, euro;
 
                 DecimalFormat f = new DecimalFormat("##.##");
