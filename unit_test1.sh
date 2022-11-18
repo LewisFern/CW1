@@ -12,7 +12,7 @@ if [ "$expected_value1" = "$actual_value1" ]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL - Values do not match"
-#exit 1
+exit 1
 fi
 
 #Test 2 - No input test
@@ -27,7 +27,7 @@ if [ "$expected_value2" = "$actual_value2" ]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL - Values do not match"
-#exit 1
+exit 1
 fi
 
 #Test 3 - Incorrect format test
@@ -42,7 +42,7 @@ if [ "$expected_value3" = "$actual_value3" ]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL - Values do not match"
-#exit 1
+exit 1
 fi
 
 #Test 4 - Input all caps
@@ -57,7 +57,7 @@ if [ "$expected_value4" = "$actual_value4" ]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL - Values do not match"
-#exit 1
+exit 1
 fi
 
 #Test 5 - Input all lowercase
@@ -72,7 +72,7 @@ if [ "$expected_value5" = "$actual_value5" ]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL - Values do not match"
-#exit 1
+exit 1
 fi
 
 #Test 6 - Input Capatilised
@@ -87,7 +87,7 @@ if [ "$expected_value6" = "$actual_value6" ]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL - Values do not match"
-#exit 1
+exit 1
 fi
 
 #Test 7 - Dollar Conversion
@@ -102,7 +102,7 @@ if [ "$expected_value7" = "$actual_value7" ]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL - Values do not match"
-#exit 1
+exit 1
 fi
 
 
@@ -118,7 +118,7 @@ if [ "$expected_value8" = "$actual_value8" ]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL - Values do not match"
-#exit 1
+exit 1
 fi
 
 #Test 9 - Euros Conversion
@@ -133,7 +133,7 @@ if [ "$expected_value9" = "$actual_value9" ]; then
 echo "TEST PASS"
 else
 echo "TEST FAIL - Values do not match"
-#exit 1
+exit 1
 fi
 
 
