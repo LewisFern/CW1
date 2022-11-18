@@ -16,7 +16,7 @@ exit 1
 fi
 
 #Test 2 - No input test
-expected_value2=$'1.0 Dollars = 0.74 Pounds\n1.0 Dollars = 0.88 Euros\nThank you for using the converter.'
+expected_value2=$'Thank you for using the converter.'
 actual_value2=`java CurrencyConverter `
 
 echo "Test 2 - No input test"
@@ -31,7 +31,7 @@ exit 1
 fi
 
 #Test 3 - Incorrect format test
-expected_value3=$'1.0 Dollars = 0.74 Pounds\n1.0 Dollars = 0.88 Euros\nThank you for using the converter.'
+expected_value3=$'Thank you for using the converter.'
 actual_value3=`java CurrencyConverter 1`
 
 echo "Test 3 - Incorrect format test"
