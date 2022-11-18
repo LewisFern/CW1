@@ -46,7 +46,7 @@ exit 1
 fi
 
 #Test 4 - Input all caps
-expected_value4=$'1.0 Pounds = 2.36 Dollars\n1.0 Pound = 1.19 Euros\nThank you for using the converter.'
+expected_value4=$'1.0 Pounds = 1.36 Dollars\n1.0 Pounds = 1.19 Euros\nThank you for using the converter.'
 actual_value4=`java CurrencyConverter 1 POUNDS`
 
 echo "Test 4 - All Caps input"
@@ -61,7 +61,7 @@ exit 1
 fi
 
 #Test 5 - Input all lowercase
-expected_value5=$'1.0 Pounds = 2.36 Dollars\n1.0 Pound = 1.19 Euros\nThank you for using the converter.'
+expected_value5=$'1.0 Pounds = 1.36 Dollars\n1.0 Pounds = 1.19 Euros\nThank you for using the converter.'
 actual_value5=`java CurrencyConverter 1 pounds`
 
 echo "Test 5 - All lowercase input"
@@ -76,7 +76,7 @@ exit 1
 fi
 
 #Test 6 - Input Capatilised
-expected_value6=$'1.0 Pounds = 2.36 Dollars\n1.0 Pound = 1.19 Euros\nThank you for using the converter.'
+expected_value6=$'1.0 Pounds = 1.36 Dollars\n1.0 Pounds = 1.19 Euros\nThank you for using the converter.'
 actual_value6=`java CurrencyConverter 1 Pounds`
 
 echo "Test 6 - Capatilised input"
@@ -107,7 +107,7 @@ fi
 
 
 #Test 8 - Pounds Conversion
-expected_value8=$'1.0 Pounds = 1.36 Dollars\n1.0 Pound = 1.19 Euros\nThank you for using the converter.'
+expected_value8=$'1.0 Pounds = 1.36 Dollars\n1.0 Pounds = 1.19 Euros\nThank you for using the converter.'
 actual_value8=`java CurrencyConverter 1 pounds`
 
 echo "Test 8 - Pounds Conversion"
@@ -122,7 +122,7 @@ exit 1
 fi
 
 #Test 9 - Euros Conversion
-expected_value9=$'1.0 Euros = 1.31 Dollars\n1.0 Euros = 1.19 Euros\nThank you for using the converter.'
+expected_value9=$'1.0 Euros = 1.31 Dollars\n1.0 Euros = 0.84 Pounds\nThank you for using the converter.'
 actual_value9=`java CurrencyConverter 1 euros`
 
 echo "Test 9 - Euros Conversion"
