@@ -51,7 +51,7 @@ public class CurrencyConverter {
                     System.exit(0);
                 }
                 {
-                System.out.println("Thank you for using the converter.");
+                System.out.println("Thank you for using the converter");
                 }
             }
         }
